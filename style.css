@@ -91,7 +91,6 @@ p:last-child{
     font-size: 10px;
     line-height: 13px;
     letter-spacing: 0.05em;
-    
     height: 13px;
 }
 
@@ -223,9 +222,7 @@ p:last-child{
     position: relative;
 }
 
-.icons-cont{ 
-    
-}
+
 
 .icons-cont p{ 
     text-align: center;
@@ -252,7 +249,6 @@ input[type='range']{
     line-height: 13px;
     letter-spacing: 0.05em;
     height: 13px;
-    
 }
 
 .p-four div{ 
@@ -263,11 +259,17 @@ input[type='range']{
 .page-5{ 
     background-image: url('./images/Mask Group.png');
     margin-top: 90px;
-    height: 384px;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.header-5{ 
-    padding-top: 50px;
+.page-5.input-enter{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .page-5 h2{ 
@@ -297,9 +299,9 @@ input[type='range']{
     justify-content: space-between;
     border-radius: 115.714px;
     position: relative;
-    top: 60px;
-    left: 370px;
 }
+
+
 
 .input-enter > input{ 
     border: none;
@@ -307,4 +309,417 @@ input[type='range']{
     flex-grow: 2;
     border-radius: 115.714px;
     padding-left: 5px;
+}
+
+.background{ 
+    margin: 0;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.pricing-page{
+    position: relative;
+} 
+
+
+.cart-container{ 
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    margin-top: 60px;
+}
+
+.cart{ 
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 323px;
+    height: 439px;
+    margin-left: 95px;
+}
+
+.cart figure{ 
+    display: flex;
+}
+
+.cart figcaption{ 
+    text-align: start;
+    margin-left: 20px;
+}
+
+
+.cart.border{ 
+    border: 1px dashed #1192EE;
+    align-self: center;
+}
+
+.cart h2{ 
+    text-align: center;
+}
+
+.cart.unborder { 
+    height: 500px;
+    box-shadow: 0px 2px 34px 6px rgba(0,0,0,0.5);
+}
+
+.pricing-header{ 
+    text-align: center;
+}
+
+.pricing-header h2{ 
+    margin-bottom: 25px;
+}
+
+.cart.unborder h2{ 
+    background-color: #1192EE;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+.price{ 
+    text-align: center;
+}
+
+.price p{ 
+    font-size: 40px;
+    position: relative;
+    color: black;
+}
+
+.price span{ 
+    font-size: 10px;
+    position: absolute;
+    bottom: 14px;
+    left: 130px;
+}
+
+.services{ 
+    padding-top: 9px;
+}
+
+.black-p p{ 
+    text-align: start;
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    height: 13px;
+    margin-left: 80px;
+}
+
+
+.cart h4{ 
+    text-align: center;
+    margin-top: 45px;
+    color: #1192EE;
+}
+
+
+.prof-approach{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+
+
+.service{ 
+    display: flex;
+}
+
+.service{ 
+    margin-left: 0;
+}
+
+.feedbacks article:last-child{ 
+    align-self: center;
+}
+
+.feedbacks .content-2{ 
+    align-self: center;
+}
+
+.feedbacks{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.content-2 span{ 
+    color: #1192EE;
+}
+
+.customers{ 
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.customer-cart{ 
+    width: 306px;
+    height: 269px;
+    box-shadow: 8px 8px 16px rgba(176, 171, 171, 0.45), -8px -8px 16px rgba(228, 228, 228, 0.52);
+    border-radius: 10px;
+}
+
+.customer-cart{ 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.stars{ 
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.stars figure{ 
+    padding: 0;
+    margin: 6px;
+}
+
+.cust-stars{ 
+    width: 94.21px;
+    height: 18px;
+} 
+
+.cust-stars figure{ 
+    margin: 0;
+}
+
+.cust-stars div{ 
+    display: flex;
+    justify-content: space-between;
+    width: 94.21px;
+    height: 18px;
+}
+
+.cust-stars img{ 
+    height: 20px;
+    width: 20px;
+    
+}
+
+.cust-name{ 
+    width: 300px;
+}
+
+.cust-name h3{ 
+    font-size: 15px;
+}
+
+.cust-review{ 
+    flex-direction: row;
+}
+
+.cust-review h3{ 
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.cust-review p{ 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cust-info{ 
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 306px;
+    margin-top: 15px;
+}
+
+.cust-info.photo{ 
+    width: 58px;
+    height: 56px;
+    margin: 0;
+}
+
+.cust-info figure{ 
+    margin-right: 5px;
+}
+
+
+.last-news{ 
+    background: linear-gradient(90.1deg, #EEF9FF 0.09%, rgba(238, 249, 255, 0) 100.6%);
+    height: 454px;
+    margin-top: 170px;
+    position: relative;
+    
+}
+
+.news-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.last-news > img{ 
+    position: absolute;
+    width: 243.67px;
+    height: 228.91px;
+    top: 280px;
+    left: 150px;
+}
+
+.news{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.last-content .grey-p{ 
+    margin: 3px;
+    height: 20px;
+}
+
+.content-2 .news{ 
+    font-size: 15px;
+}
+
+.last-content h3{ 
+    font-size: 15px;
+}
+
+.last-content figure{ 
+    display: flex;
+    margin-left: 0;
+}
+
+.last-content span{ 
+    color: #1192EE;
+}
+
+.news-img > figure{ 
+    margin-left: 0;
+}
+
+footer { 
+    background-image: url('./images/Vector 6.png');
+    height: 532px;
+    margin-top: 90px;
+    width: 100%;
+    position: relative;
+}
+
+.input-enter{ 
+    width: 410px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #F0EBEB;
+    box-sizing: border-box;
+    border-radius: 16.25px;
+}
+
+.blue-button.input{ 
+    border-radius: 16.25px;
+}
+
+
+.input-container{ 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+.input-container h3{ 
+    font-size: 14px;
+    line-height: 150%;
+    width: 297px;
+    height: 21px;
+    text-align: center;
+}
+
+.footer-medium ul{ 
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-medium{ 
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 200px;
+    margin-left: 50px;
+}
+
+.footer-medium article{ 
+    margin-left: 70px;
+}
+
+.footer-medium h2{ 
+    color: #1192EE;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer-medium h5{ 
+    text-align: end;
+    color: #1192EE;
+}
+
+.footer-medium li{ 
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+.footer-end{ 
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+} 
+
+.footer-end h2{ 
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 70px;
+}
+
+.footer-end h3{ 
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 44, 91, 0.53);
+    margin-left: 70px;
+}
+
+.after-new:after{ 
+    content: 'NEW';
+    color: #1192EE;
+    background-color: white;
+    border-radius: 5px;
+    width: 40px;
+    height: 17px;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+
+.after-hiring:after{ 
+    content: 'WE’RE HIRING';
+    color: #1192EE;
+    background-color: white;
+    border-radius: 5px;
+    width: 63px;
+    height: 12px;
+    line-height: 150%;
+    font-size: 10px;
+    font-weight: 900;
 }
